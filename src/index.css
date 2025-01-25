@@ -1,0 +1,25 @@
+* {
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #151515;
+  color: #dfdfdf;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(251, 104, 84);
+  transition: 0.2s;
+}
+
+a:hover {
+  color: rgb(213, 57, 37);
+}
+
+button {
+  cursor: pointer;
+}
