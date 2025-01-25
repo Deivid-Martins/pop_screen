@@ -30,6 +30,12 @@
   padding: 1rem;
 }
 
+@media (max-width: 600px) {
+  .movies-container div {
+    width: 100%;
+  }
+}
+
 .movies-container div img {
   max-width: 100%;
 }

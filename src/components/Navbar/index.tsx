@@ -21,7 +21,7 @@ export function Navbar() {
   return (
     <nav id="navbar">
       <h2>
-        <Link to='/'><BiCameraMovie /> PopScreen</Link>
+        <Link to='/'><BiCameraMovie /> <span>PopScreen</span></Link>
       </h2>
       <form onSubmit={handleSubmit}>
         <input 
